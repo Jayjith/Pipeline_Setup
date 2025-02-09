@@ -1,6 +1,6 @@
-name = jayjith
+name = "jayjith"
 age= 26
-status = unmarried
+status = "unmarried"
 
 print("Name:", name)
 print("Age:", age)
