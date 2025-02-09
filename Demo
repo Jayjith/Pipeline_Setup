@@ -1,1 +1,7 @@
-print "Hello world"
+name = jayjith
+age= 26
+status = unmarried
+
+print("Name:", name)
+print("Age:", age)
+print("status:", status)
