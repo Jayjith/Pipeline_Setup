@@ -1,0 +1,22 @@
+name: Run Script on Push
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  run-container:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Run custom script
+        run: |
+          echo "Running your script from /root/jayjith"
+          bash script.sh
